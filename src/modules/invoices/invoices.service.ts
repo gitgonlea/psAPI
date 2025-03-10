@@ -498,9 +498,7 @@ export class InvoicesService {
   }
 
   async getPwd(pwd: string, host: string): Promise<string> {
-    if (pwd === process.env.SECRET_PASSWORD || 
-        (pwd === 'matiass323' && host.includes('brickgame.net')) || 
-        (pwd === 'staff98022' && host.includes('patagonia-strike.com'))) {
+    if (pwd === process.env.SECRET_PASSWORD) {
       return 'success';
     } else {
       return 'fail';
@@ -528,7 +526,7 @@ export class InvoicesService {
 
   async getBalance(): Promise<any[]> {
     const dbNumbers = [1, 2, 4, 7, 8, 11];
-    const dbName = ["Patagonia Strike", "Taringa CS", "BrickGame", "Gaming Group", "Vieja School", "Classic Gamers"];
+    const dbName = ["Patagonia Strike", "TCS", "BrickGame", "Gaming Group", "Vieja School", "Classic Gamers"];
     const combinedResults = [];
 
     let totalNeto = 0;
