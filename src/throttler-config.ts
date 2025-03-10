@@ -1,0 +1,6 @@
+export const THROTTLE_LIMIT = {
+    DEFAULT: 20,
+    CREATE_INVOICE: 3,
+    GET_PAYMENTS: 10, 
+    TOP_OPERATIONS: 10
+  };
