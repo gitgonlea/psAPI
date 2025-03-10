@@ -8,7 +8,7 @@ A NestJS API for managing game servers, player accounts, payments, and VIP statu
 - VIP purchase system with MercadoPago integration
 - Top player rewards system
 - Admin panel with user search and management
-- Dollar Blue rate tracking and price calculation
+- Dollar rate tracking and price calculation
 
 ## Installation
 
