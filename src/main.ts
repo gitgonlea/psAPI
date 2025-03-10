@@ -45,14 +45,6 @@ async function bootstrap() {
   expressApp.set('trust proxy', 1);
   
   app.enableCors({
-    /*origin: [
-      'https://patagonia-strike.com',
-      'https://taringa-cs.com',
-      'https://taringa-cs.net',
-      'https://brickgame.net',
-      'https://gaming-group.net',
-      ...(process.env.NODE_ENV !== 'production' ? ['http://localhost:3000'] : []),
-    ],*/
     credentials: true,
     optionsSuccessStatus: 200,
   });
