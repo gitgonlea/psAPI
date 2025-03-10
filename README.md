@@ -1,4 +1,4 @@
-# Game Server API
+# ps API
 
 A NestJS API for managing game servers, player accounts, payments, and VIP status.
 
@@ -17,7 +17,7 @@ A NestJS API for managing game servers, player accounts, payments, and VIP statu
 git clone <repository-url>
 
 # Navigate to the project directory
-cd game-server-api
+cd psAPI
 
 # Install dependencies
 npm install
@@ -66,5 +66,5 @@ This application uses:
 
 ## Cron Jobs
 
-- Daily update of Dollar Blue exchange rate at 12:00
+- Daily update of Dollar exchange rate at 12:00
 - Monthly distribution of player rewards on the 1st day of each month
